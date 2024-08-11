@@ -8,7 +8,7 @@
 /* end Variables */
 /* start main component */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
 .main-head {
@@ -110,9 +110,10 @@ header {
   width: 100%;
   z-index: 10;
   background-color: rgb(51 38 101 / 20%);
+  transition: 0.9s;
 }
 header:hover{
-  background-color: rgb(52 47 71 / 100%);
+  background-color:#3b7885;
 }
 
 
@@ -232,6 +233,12 @@ header nav .form:hover i {
   min-height: 100vh;
   background-color: gray;
   position: relative;
+}
+.landing .text .content h1{
+  color:#452a61b3;
+}
+.landing .text .content h4{
+  color:#87aaafc4;
 }
 
 .landing .overlay {
@@ -806,8 +813,8 @@ font-size: 14px;
     background-color: var(--Main-color);
     display: block;
     height: 100%;
-    /* height: 30px; */
     position: relative;
+    transition: width 0.5s linear;
   }
   .skills .container .column-2 .max{
     margin-top: 150px;
